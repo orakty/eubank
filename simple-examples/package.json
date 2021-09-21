@@ -1,0 +1,44 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "mern stack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "mern",
+    "reeact"
+  ],
+  "author": "Zhans",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "express-validator": "^6.12.1",
+    "graphql": "^15.5.3",
+    "graphql-request": "^3.5.0",
+    "isomorphic-fetch": "^3.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.0",
+    "react-material-ui-carousel": "^2.3.1",
+    "react-responsive-carousel": "^3.2.21"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1",
+    "css-loader": "^6.2.0",
+    "less": "^4.1.1",
+    "less-loader": "^10.0.1",
+    "nodemon": "^2.0.12",
+    "style-loader": "^3.2.1"
+  }
+}

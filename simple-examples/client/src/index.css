@@ -1,0 +1,71 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+input.yellow-input {
+    border-bottom: 1px solid #fff !important;
+    box-shadow: 0 1px 0 0 #fff !important;
+} 
+input.yellow-input + label{
+    color: #ffff !important;
+}
+input.yellow-input:focus{
+    border-bottom: 1px solid #ffeb3b !important;
+    box-shadow: 0 1px 0 0 #ffeb3b !important;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px rgb(31 135 229) inset !important;
+  -webkit-text-fill-color: white !important;
+}
+
+.bottom-nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    border-top: 1px solid rgb(230, 230, 230);
+  }
+  .bn-tab {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .col_custom {
+    float: left;
+    padding: 0.75rem;
+  }
+
+  .inner_payment_block {
+    width: 30%;
+    margin: 20px;
+    border-color: #E5E5E5;
+    border-radius: 20px;
+  }
+  .inner_block {
+    width: 70%;
+    margin: 20px;
+    background: #F0F2FF;
+    border-color: #E5E5E5;
+    border-radius: 20px;
+  }
+
+  .carousel-inner > .item {
+    min-height : 100px !important;
+    max-height : 100px !important;
+    width : 100% !important;
+  }
+
+  .carousel-slider {
+    max-height : 100px !important;
+  }
+
+  .slide, .carousel{
+    max-height : 100px !important;
+  }
